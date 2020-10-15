@@ -27,6 +27,12 @@ body {
   align-items: center;
 }
 
+.page h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin: 1rem;
+}
+
 #page-1 {
   background-color: var(--page-1-color);
 }
