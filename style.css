@@ -57,6 +57,7 @@ body {
 }
 
 .btn {
+  display: inline-block;
   text-decoration: none;
   border: none;
   color: #424040;
@@ -65,7 +66,6 @@ body {
   margin-top: 1rem;
   font-size: 1.1rem;
   transition: all 0.3s ease-in;
-  display: inline-block;
 }
 
 .btn:hover,
@@ -77,4 +77,26 @@ body {
 .btn-dark:hover {
   color: #424040;
   background-color: #f1f1f1;
+}
+
+#page-1 h1 {
+  transform: translateY(-1200px);
+  animation: dropDown var(--animetion-speed) forwards ease-in;
+}
+
+#page-1 p {
+  transform: translateX(-1800px);
+  animation: side var(--animetion-speed) forwards ease-in 1s;
+}
+
+@keyframes dropDown {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes side {
+  to {
+    transform: translateY(0);
+  }
 }
