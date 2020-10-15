@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 :root {
   --page-1-color: #118ab2;
   --page-2-color: #06d6a0;
@@ -10,4 +12,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: ;
 }
