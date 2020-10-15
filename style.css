@@ -1,0 +1,13 @@
+:root {
+  --page-1-color: #118ab2;
+  --page-2-color: #06d6a0;
+  --page-3-color: #ffd166;
+  --page-4-color: #ef476f;
+  --animetion-speed: 2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
